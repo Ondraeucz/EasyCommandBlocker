@@ -1,0 +1,43 @@
+#EASY COMMAND BLOCKER
+
+#Version plugin -> 1.0 - SNAPSHOT
+
+#If you don't know what to do, join our discord, where we will give you advice.
+# https://discord.gg/nE2YhqWzDZ
+
+# Used to let the plugin determine if your config is up-to-date, so a
+# warning can be printed in the server console. Only edit this if you
+# know what you are doing, or have just updated your config to the
+# newest version.
+config-version: '1.0'
+
+#Command / Permissions
+#ecb.bypass
+#/ecb reload ecb.admin.reload
+
+#Blocks all player commands
+block_all_commands_send: false
+
+#MESSAGE
+Prefix: "&7[&6EasyCommandBlocker&7]"
+Message: "&cYou are not allowed to use this command! Contact the server admin"
+Reload: "&cPlugin has been reloaded!"
+
+# Prevent the following commands from being processed by the server / sent to players (tab completion)
+# Note! You need to block plugin name:commands, e.g. bukkit:?
+blocked_commands:
+  - "?"
+  - "pl"
+  - "icanhasbukkit"
+  - "bukkit:?"
+  - "ver"
+  - "bukkit:plugins"
+  - "about"
+  - "bukkit:about"
+  - "help"
+  - "bukkit:help"
+  - "bukkit:pl"
+  - "plugins"
+  - "bukkit:ver"
+  - "bukkit:version"
+  - "version"

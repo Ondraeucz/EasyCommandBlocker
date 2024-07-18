@@ -1,0 +1,13 @@
+name: EasyCommandBlocker
+version: '${version}'
+main: org.ondraeu.easycommandblocker.CommandBlocker
+api-version: '1.13'
+author: Ondraeu
+description: Very simple command blocker
+commands:
+  easycommandblocker:
+    description: "Reload plugin"
+    permission: ecb.admin.reload
+    permission-message: "You do not have permissions to use this command!"
+    aliases:
+      - ecb
